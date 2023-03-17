@@ -6,6 +6,7 @@
   display: -ms-flexbox;
   display: flex;
   border-bottom: 7px solid #cac3c1;
+  font-family: 'Barlow', sans-serif;
 }
 
 .left-header {
@@ -24,6 +25,10 @@
           align-items: center;
 }
 
+.header-main li {
+  font-size: 25px;
+}
+
 .right-header {
   width: 50%;
   height: 100%;
@@ -37,16 +42,5 @@
       -ms-flex-pack: right;
           justify-content: right;
   padding-right: 50px;
-}
-
-.button-style-1 {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 13px;
-  padding-top: 13px;
-  background-color: #000;
-  border-radius: 25px;
-  color: #dbd5d2;
-  font-size: 25px;
 }
 /*# sourceMappingURL=header.css.map */

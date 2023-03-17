@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,IAAI;EACpB,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,IAAI;EACtB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,IAAI;CACf",
     "sources": [
         "button.scss"
     ],
