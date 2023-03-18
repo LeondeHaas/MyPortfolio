@@ -1,12 +1,12 @@
 .header-main {
   width: 100%;
-  height: 115px;
+  height: 100px;
   background-color: #dbd5d2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-bottom: 7px solid #cac3c1;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Saira Condensed', sans-serif;
 }
 
 .left-header {
@@ -27,6 +27,7 @@
 
 .header-main li {
   font-size: 25px;
+  font-weight: 500;
 }
 
 .right-header {
@@ -41,6 +42,11 @@
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-  padding-right: 50px;
+  padding-right: 55px;
+}
+
+.header-main .left-header img {
+  width: 200px;
+  height: auto;
 }
 /*# sourceMappingURL=header.css.map */

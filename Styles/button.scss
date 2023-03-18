@@ -1,13 +1,49 @@
-.button-style-1 {
+.header-main {
+    .right-header {
+        p:after {
+            content: url(/Images/002-taekwondo-64x.png);
+            margin-left: 55px;
+        }
+    }
+}
+
+.button-style-1,
+.button-style-2,
+.button-style-3 {
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 13px;
     padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 10px;
+    font-family: 'Saira Condensed', sans-serif;
+    transition: 55ms;
+    font-size: 18px;
+}
+
+.button-style-2 {
+    margin-right: 20px;
+}
+
+.button-style-1 {
     background-color: #000;
-    border-radius: 25px;
+    border: 2px solid black;
     color: #dbd5d2;
-    font-size: 25px;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 300;
-    border: bold;
+}
+
+.button-style-2 {
+    background-color: #dbd5d2;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.button-style-1:hover {
+    background-color: #dbd5d2;
+    color: #000;
+    transition: 55ms;
+}
+
+.button-style-2:hover {
+    background-color: #000;
+    color: #dbd5d2;
+    transition: 55ms;
 }

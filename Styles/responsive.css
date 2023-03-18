@@ -1,0 +1,100 @@
+@media (max-width: 1550px) {
+  .button-style-1,
+  .button-style-2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+  }
+}
+
+@media (max-width: 1630px) {
+  .home-main-container .left-home-container .home-text-box {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1251px) {
+  .home-main-container .left-home-container .home-text-box {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-main-container .left-home-container .home-text-box {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 942px) {
+  .header-main {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .left-header,
+  .right-header {
+    width: 100%;
+  }
+  .left-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .right-header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-right: 0;
+  }
+  .right-header {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .right-header p {
+    display: none;
+  }
+  .button-style-1 {
+    margin-right: 0;
+  }
+  .header-main .left-header img {
+    width: 140px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-main .left-header li {
+    font-size: 20px;
+  }
+  .button-style-1,
+  .button-style-2 {
+    font-size: 18px;
+  }
+  .home-main-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .left-home-container,
+  .right-home-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .right-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .button-style-2 {
+    margin-right: 0px;
+    margin-bottom: 13px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
