@@ -14,7 +14,6 @@
 .home-main-container {
   width: 100%;
   height: 100vh;
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,7 +36,6 @@
 .right-home-container {
   width: 50%;
   height: 100%;
-  background-color: yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,25 +50,31 @@
 .bottom-home-container {
   width: 100%;
   height: 250px;
-  background-color: #474646;
+  background-color: #dbd5d2;
 }
 
 .R-container-bg-1 {
   width: 25%;
   height: 100%;
   background-color: #000;
+  -webkit-transform: skew(50deg);
+          transform: skew(50deg);
 }
 
 .R-container-bg-2 {
-  width: 45%;
+  width: 35%;
   height: 100%;
   background-color: #181717;
+  -webkit-transform: skew(50deg);
+          transform: skew(50deg);
 }
 
 .R-container-bg-3 {
-  width: 30%;
+  width: 40%;
   height: 100%;
   background-color: #252424;
+  -webkit-transform: skew(50deg);
+          transform: skew(50deg);
 }
 
 .home-text-box {
@@ -83,6 +87,10 @@
   word-wrap: break-word;
   text-align: left;
   text-shadow: 20px 20px 50px;
+}
+
+p {
+  font-size: 25px;
 }
 
 .hero-banner-container {
@@ -106,8 +114,10 @@
   border-radius: 60px;
   -webkit-box-shadow: 90px 90px 60px;
           box-shadow: 90px 90px 60px;
-  border: 5px solid #000;
   -webkit-transition: 55ms;
   transition: 55ms;
+  background-image: radial-gradient(#ffa17f, #00223e);
+  transition: 55ms;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=main.css.map */
