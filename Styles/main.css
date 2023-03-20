@@ -4,8 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #dbd5d2;
@@ -14,110 +13,120 @@
 .home-main-container {
   width: 100%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .left-home-container {
   width: 50%;
-  height: 100vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
 .right-home-container {
   width: 50%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.bottom-home-container {
-  width: 100%;
-  height: 250px;
-  background-color: #dbd5d2;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(#ffa17f, #00223e);
 }
 
 .R-container-bg-1 {
   width: 25%;
   height: 100%;
   background-color: #000;
-  -webkit-transform: skew(50deg);
-          transform: skew(50deg);
 }
 
 .R-container-bg-2 {
   width: 35%;
   height: 100%;
-  background-color: #181717;
-  -webkit-transform: skew(50deg);
-          transform: skew(50deg);
+  background-color: rgb(24, 23, 23);
 }
 
 .R-container-bg-3 {
   width: 40%;
   height: 100%;
-  background-color: #252424;
-  -webkit-transform: skew(50deg);
-          transform: skew(50deg);
+  background-color: rgb(37, 36, 36);
 }
 
 .home-text-box {
   width: 100%;
   background-color: #dbd5d2;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   padding: 75px;
   height: auto;
   font-size: 50px;
   word-wrap: break-word;
   text-align: left;
-  text-shadow: 20px 20px 50px;
 }
 
 p {
   font-size: 25px;
 }
 
-.hero-banner-container {
+.bottom-home-container {
+  width: 100%;
   height: auto;
-  position: absolute;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: #dbd5d2;
+  display: flex;
+  padding: 50px;
+  background-color: yellow;
+}
+
+.left-bottom-container {
+  width: 25%;
+  height: 250px;
+  background-color: red;
+}
+
+.right-bottom-container {
+  width: 75%;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.info-block {
+  width: 400px;
+  height: auto;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.icon-1::before {
+  content: url(/Images/001-web.png);
+  width: 20px;
+  height: 20px;
+}
+
+.icon-2::before {
+  content: url(/Images/002-layers.png);
+  width: 20px;
+  height: 20px;
 }
 
 .home-main-container .right-home-container .block {
   width: 200px;
   height: 200px;
-  background-color: #413939;
+  background-color: rgb(65, 57, 57);
   position: absolute;
   margin-right: 500px;
   margin-bottom: 700px;
 }
-
 .home-main-container .right-home-container .hero-banner-container .hero {
   width: 450px;
   height: auto;
-  border-radius: 60px;
-  -webkit-box-shadow: 90px 90px 60px;
-          box-shadow: 90px 90px 60px;
-  -webkit-transition: 55ms;
   transition: 55ms;
   background-image: radial-gradient(#ffa17f, #00223e);
   transition: 55ms;
   background-attachment: fixed;
 }
-/*# sourceMappingURL=main.css.map */
+.home-main-container .hero-banner-container {
+  height: auto;
+  background-color: rgba(255, 0, 0, 0);
+}/*# sourceMappingURL=main.css.map */
