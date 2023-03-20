@@ -47,8 +47,10 @@
     // background-color: yellow;
     display: flex;
     align-items: center;
+    justify-content: end;
     justify-content: center;
-     background-image: radial-gradient(#ffa17f, #00223e, );
+    //  background-image: radial-gradient(#ffa17f, #00223e, );
+    //  border-bottom-left-radius: 100%;
 }
 
 // main containers home
@@ -104,13 +106,14 @@ p {
     background-color: #dbd5d2;
     display: flex;
     padding: 50px;
-    background-color: yellow;
 }
 
 .left-bottom-container {
     width: 25%;
     height: 250px;
-    background-color: red;
+    background-color: #000;
+    // box-shadow: 25px 25px #000;
+    border-radius: 25px;
 }
 
 .right-bottom-container {
@@ -124,19 +127,20 @@ p {
     height: auto;
     font-family: 'Be Vietnam Pro', sans-serif;
 } h2 {
-    font-size: 30px;
+    font-size: 25px;
+    padding-bottom: 20px;
+} p {
+    font-size: 20px;
 }
 
 .icon-1::before {
     content: url(/Images/001-web.png);
-    width: 20px;
-    height: 20px;
+    margin-right: 50px;
 }
 
 .icon-2::before {
     content: url(/Images/002-layers.png);
-    width: 20px;
-    height: 20px;
+    margin-right: 50px;
 }
 
 // hero container
@@ -157,7 +161,6 @@ p {
             .hero {
                 width: 450px;
                 height: auto;
-                // border-radius: 60px;
                 // box-shadow: 90px 90px 60px;
                 // border: 1px solid #6441A5;
                 // rotate: -10deg;
@@ -167,6 +170,8 @@ p {
                 // background-image: radial-gradient(#360033, #0b8793);
                 transition: 55ms;
                 background-attachment: fixed;
+                    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
             }
         }
     }

@@ -128,6 +128,20 @@
     .right-home-container {
         width: 100%;
     }
+
+    .bottom-home-container {
+    flex-direction: column;
+}
+
+.right-bottom-container {
+   flex-direction: column;
+   width: 100%;
+}
+
+.left-bottom-container {
+    width: 100%;
+    margin-bottom: 50px;
+}
 }
 
 @media (max-width:375px) {

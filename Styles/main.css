@@ -28,8 +28,8 @@
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: end;
   justify-content: center;
-  background-image: radial-gradient(#ffa17f, #00223e);
 }
 
 .R-container-bg-1 {
@@ -71,13 +71,13 @@ p {
   background-color: #dbd5d2;
   display: flex;
   padding: 50px;
-  background-color: yellow;
 }
 
 .left-bottom-container {
   width: 25%;
   height: 250px;
-  background-color: red;
+  background-color: #000;
+  border-radius: 25px;
 }
 
 .right-bottom-container {
@@ -95,19 +95,22 @@ p {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .icon-1::before {
   content: url(/Images/001-web.png);
-  width: 20px;
-  height: 20px;
+  margin-right: 50px;
 }
 
 .icon-2::before {
   content: url(/Images/002-layers.png);
-  width: 20px;
-  height: 20px;
+  margin-right: 50px;
 }
 
 .home-main-container .right-home-container .block {
@@ -125,6 +128,8 @@ h2 {
   background-image: radial-gradient(#ffa17f, #00223e);
   transition: 55ms;
   background-attachment: fixed;
+  border-bottom-left-radius: 150px;
+  border-top-right-radius: 150px;
 }
 .home-main-container .hero-banner-container {
   height: auto;
