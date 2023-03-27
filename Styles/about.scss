@@ -1,0 +1,50 @@
+// about me
+
+.section-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.intro-hero {
+     background-image: radial-gradient(#ffa17f, #00223e, );
+     width: 400px;
+     height: auto;
+    //  border-top-right-radius: 100px;
+    //  border-bottom-left-radius: 100px;
+    background-attachment: fixed;
+}
+
+.left-section-1 {
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    // background-color: blue;
+}
+
+
+.right-section-1 {
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    // background-color: red;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.text-box-about {
+    width: 100%;
+    height: auto;
+      font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.S1-title {
+    font-size: 70px;
+}
