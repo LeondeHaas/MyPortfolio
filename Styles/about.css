@@ -46,7 +46,7 @@
   display: flex;
   flex-wrap: wrap;
   background-image: url(/Images/);
-  padding-bottom: 100px;
+  padding-bottom: 45px;
 }
 
 .top-section-1 {
@@ -57,8 +57,8 @@
 
 .S2-title {
   background-color: #201c1c;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   padding-left: 50px;
   font-size: 50px;
   font-family: "Be Vietnam Pro", sans-serif;
