@@ -34,7 +34,7 @@
 
 .left-home-container {
     width: 50%;
-    height: 100vh;
+    // height: 100vh;
     // background-color: rebeccapurple;
     justify-content: center;
     align-items: center;
@@ -47,13 +47,10 @@
     // background-color: yellow;
     display: flex;
     align-items: center;
+    justify-content: end;
     justify-content: center;
-}
-
-.bottom-home-container {
-    width: 100%;
-    height: 250px;
-    background-color: #dbd5d2;
+    //  background-image: radial-gradient(#ffa17f, #00223e, );
+    //  border-bottom-left-radius: 100%;
 }
 
 // main containers home
@@ -64,21 +61,21 @@
     width: 25%;
     height: 100%;
     background-color: #000;
-    transform: skew(50deg);
+    // transform: skew(50deg);
 }
 
 .R-container-bg-2 {
     width: 35%;
     height: 100%;
     background-color: rgb(24, 23, 23);
-    transform: skew(50deg);
+    // transform: skew(50deg);
 }
 
 .R-container-bg-3 {
     width: 40%;
     height: 100%;
     background-color: rgb(37, 36, 36);
-    transform: skew(50deg);
+    // transform: skew(50deg);
 }
 
 // containers inside the right container
@@ -95,22 +92,58 @@
     font-size: 50px;
     word-wrap: break-word;
     text-align: left;
-    text-shadow: 20px 20px 50px;
 }
 
 p {
     font-size: 25px;
 }
 
-// text box container 
+// bottom containers
 
-// hero banner container
-
-.hero-banner-container {
+.bottom-home-container {
+    width: 100%;
     height: auto;
-    position: absolute;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: #dbd5d2;
+    display: flex;
+    padding: 50px;
 }
+
+.left-bottom-container {
+    width: 25%;
+    height: 250px;
+    background-color: #000;
+    // box-shadow: 25px 25px #000;
+    border-radius: 25px;
+}
+
+.right-bottom-container {
+    width: 75%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+} .info-block {
+    width: 400px;
+    height: auto;
+    font-family: 'Be Vietnam Pro', sans-serif;
+} h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+} p {
+    font-size: 20px;
+}
+
+.icon-1::before {
+    content: url(/Images/001-web.png);
+    margin-right: 50px;
+}
+
+.icon-2::before {
+    content: url(/Images/002-layers.png);
+    margin-right: 50px;
+}
+
+// hero container
 
 .home-main-container {
     .right-home-container {
@@ -128,8 +161,7 @@ p {
             .hero {
                 width: 450px;
                 height: auto;
-                border-radius: 60px;
-                box-shadow: 90px 90px 60px;
+                // box-shadow: 90px 90px 60px;
                 // border: 1px solid #6441A5;
                 // rotate: -10deg;
                 transition: 55ms;
@@ -138,7 +170,14 @@ p {
                 // background-image: radial-gradient(#360033, #0b8793);
                 transition: 55ms;
                 background-attachment: fixed;
+                    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
             }
         }
     }
+
+    .hero-banner-container {
+    height: auto;
+    background-color: rgba(255, 0, 0, 0);
+}
 }

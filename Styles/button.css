@@ -11,8 +11,7 @@
   padding-top: 13px;
   padding-bottom: 13px;
   border-radius: 10px;
-  font-family: 'Saira Condensed', sans-serif;
-  -webkit-transition: 55ms;
+  font-family: "Saira Condensed", sans-serif;
   transition: 55ms;
   font-size: 18px;
 }
@@ -36,14 +35,11 @@
 .button-style-1:hover {
   background-color: #dbd5d2;
   color: #000;
-  -webkit-transition: 55ms;
   transition: 55ms;
 }
 
 .button-style-2:hover {
   background-color: #000;
   color: #dbd5d2;
-  -webkit-transition: 55ms;
   transition: 55ms;
-}
-/*# sourceMappingURL=button.css.map */
+}/*# sourceMappingURL=button.css.map */

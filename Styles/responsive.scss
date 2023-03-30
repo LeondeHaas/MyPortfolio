@@ -1,3 +1,16 @@
+@media (min-width:2560px) {
+
+   .home-main-container {
+        .right-home-container {
+            .hero-banner-container {
+                .hero {
+                    width: 775px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width:1550px) {
 
     .button-style-1,
@@ -24,6 +37,16 @@
         .left-home-container {
             .home-text-box {
                 font-size: 25px;
+            }
+        }
+    }
+
+    .home-main-container {
+        .right-home-container {
+            .hero-banner-container {
+                .hero {
+                    width: 315px;
+                }
             }
         }
     }
@@ -105,6 +128,20 @@
     .right-home-container {
         width: 100%;
     }
+
+    .bottom-home-container {
+    flex-direction: column;
+}
+
+.right-bottom-container {
+   flex-direction: column;
+   width: 100%;
+}
+
+.left-bottom-container {
+    width: 100%;
+    margin-bottom: 50px;
+}
 }
 
 @media (max-width:375px) {
