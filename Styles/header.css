@@ -23,15 +23,6 @@
   transition: 55ms;
 }
 
-li:hover {
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  transition: 55ms;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 10px;
-  outline: 1px solid #000;
-}
-
 .header-main li {
   font-size: 25px;
   font-weight: 500;

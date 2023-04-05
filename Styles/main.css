@@ -16,6 +16,7 @@
   display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .left-home-container {
@@ -32,6 +33,7 @@
   align-items: center;
   justify-content: end;
   justify-content: center;
+  z-index: 1000;
 }
 
 .R-container-bg-1 {
@@ -61,6 +63,7 @@
   font-size: 50px;
   word-wrap: break-word;
   text-align: left;
+  z-index: 1000;
 }
 
 p {
@@ -125,12 +128,15 @@ p {
 
 .copyright {
   width: 100%;
-  height: 50px;
-  background-color: #dbd5d2;
-  color: #000;
+  height: 250px;
+  background-color: #201c1c;
+  color: #dbd5d2;
   text-align: center;
   align-items: center;
   font-family: "Be Vietnam Pro", sans-serif;
   display: flex;
   justify-content: center;
+  margin-top: -210px;
+  -webkit-clip-path: polygon(100% 44%, 0% 100%, 100% 100%);
+          clip-path: polygon(100% 44%, 0% 100%, 100% 100%);
 }/*# sourceMappingURL=main.css.map */
