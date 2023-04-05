@@ -1,11 +1,10 @@
-// about me
+.divider {
+  margin-top: -10px;
+}
 
-// body {
-//     padding-left: 100px;
-//     padding-right: 100px;
-// }
-
-//section-1
+.divider-about {
+  margin-top: -90px;
+}
 
 .section-1 {
     width: 100%;
@@ -70,6 +69,7 @@
     // box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background-image: url(/Images/);
     padding-bottom: 45px;
+    flex-direction: column;
 }
 
 .top-section-1 {
@@ -88,12 +88,13 @@
     color:#dbd5d2;
     border-bottom: 3px solid #343131;
     width: 100%;
+    margin-top: -10px;
         //   box-shadow: rgba(32, 25, 30, 0.4) 0px -5px, rgba(58, 50, 55, 0.3) 0px -10px, rgba(92, 86, 90, 0.2) 0px -15px, rgba(115, 108, 113, 0.1) 0px -20px, rgba(197, 192, 195, 0.05) 0px -25px;
 
 }
 
 .left-section-2, .right-section-2 {
-    width: 50%;
+    width: 100%;
     height: auto;
     background-color: #201c1c;
     justify-content: center;
@@ -117,11 +118,12 @@
 }
 
 .het-rijks {
-    width: 75%;
+    width: 50%;
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    z-index: 1000;
     // transform: scale(1.5);
 }
 
@@ -131,7 +133,7 @@
 .section-3 {
     width: 100%;
     height: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
     padding: 100px;
@@ -140,11 +142,14 @@
 
 .card-1 {
     width: 300px;
-    height: 400px;
+    height: auto;
     background-color: #dbd5d2;
-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transition: 85ms;
     border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+      font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .card-1:hover {
@@ -176,7 +181,6 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 .S3-title {
     background-color: #dbd5d2;
-    padding-top: 150px;
     padding-bottom: 45px;
     font-size: 50px;
     font-family: 'Be Vietnam Pro', sans-serif;
