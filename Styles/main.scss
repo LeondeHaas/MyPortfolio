@@ -28,11 +28,11 @@
 
 .home-main-container {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .left-home-container {
@@ -114,17 +114,17 @@ p {
     background-color: #000;
     display: flex;
     padding: 50px;
-     font-family: 'Be Vietnam Pro', sans-serif;
-     justify-content: space-between;
-     flex-wrap: wrap;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    justify-content: space-between;
+    flex-wrap: wrap;
     //  padding: 75px;
 }
 
 .project {
     width: 300px;
     height: 300px;
-   margin: 25px;
-   border: 1px solid #000;
+    margin: 25px;
+    border: 1px solid #000;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
 
@@ -161,28 +161,30 @@ p {
             .hero {
                 width: 450px;
                 height: auto;
-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;                // rotate: -10deg;
+                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; // rotate: -10deg;
                 transition: 55ms;
                 // background-image: radial-gradient(#6441A5, #2a0845);
                 background-image: radial-gradient(#ffa17f, #00223e, );
                 // background-image: radial-gradient(#360033, #0b8793);
                 transition: 55ms;
                 background-attachment: fixed;
-                    border-bottom-left-radius: 150px;
-    border-top-right-radius: 150px;
+                border-bottom-left-radius: 150px;
+                border-top-right-radius: 150px;
             }
         }
     }
 
     .hero-banner-container {
-    height: auto;
-    background-color: rgba(255, 0, 0, 0);
-}
+        height: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
 }
 
 .copyright {
     width: 100%;
     height: 250px;
+    position: relative;
+    z-index: 1000;
     background-color: #201c1c;
     // background-color: #000;
     color: #dbd5d2;
@@ -191,10 +193,86 @@ box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;                // rotate: -10
     font-family: 'Be Vietnam Pro', sans-serif;
     display: flex;
     justify-content: center;
-    margin-top: -210px;
+    // margin-top: -210px;
     clip-path: polygon(100% 44%, 0% 100%, 100% 100%);
 }
 
-// .divider-home {
-//     margin-top: -325px;
-// }
+// progress bar css
+
+// progress bar wrappers
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.wrapper .card {
+    width: calc(33% - 20px);
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.wrapper .card .circle {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.card .circle .box,
+.card .circle .box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.card .circle .box {
+    height: 100%;
+    width: 100%;
+    // background-image: linear-gradient(#ffa17f, #00223e);
+    background-color: #bdb8b5;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.2s;
+}
+
+.card .circle:hover .box {
+    transform: translate(-50%, -50%) scale(0.91);
+}
+
+
+.card .circle .box span,
+.wrapper .card .text {
+    background: -webkit-linear-gradient(left, #201c1c, #201c1c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle .box span {
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transform: translate(-45%, -45%);
+    transition: all 0.1s;
+}
+
+.card .circle:hover .box span {
+    transform: translate(-45%, -45%) scale(1.09);
+}
+
+.card .text {
+    font-size: 20px;
+    font-weight: 600;
+}

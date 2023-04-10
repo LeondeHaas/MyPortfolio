@@ -1,10 +1,22 @@
 @media (min-width:2560px) {
 
-   .home-main-container {
+    .home-main-container {
         .right-home-container {
             .hero-banner-container {
                 .hero {
                     width: 775px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:2000px) {
+    .home-main-container {
+        .right-home-container {
+            .hero-banner-container {
+                .hero {
+                    width: 625px;
                 }
             }
         }
@@ -50,6 +62,22 @@
             }
         }
     }
+
+    .section-1 {
+        flex-direction: column;
+    }
+
+    .section-1 {
+
+        .left-section-1,
+        .right-section-1 {
+            width: 100%;
+        }
+    }
+
+    .right-section-1 {
+        padding-top: 50px;
+    }
 }
 
 @media (max-width:1000px) {
@@ -67,6 +95,24 @@
     .header-main {
         height: auto;
         flex-direction: column;
+    }
+
+    .left-home-container,
+    .right-home-container {
+        width: 100%;
+    }
+
+    .home-main-container {
+        .left-home-container {
+            .home-text-box {
+                text-align: center;
+            }
+        }
+    }
+
+    .home-main-container {
+        flex-direction: column;
+        height: auto;
     }
 
     .left-header,
@@ -130,18 +176,107 @@
     }
 
     .bottom-home-container {
-    flex-direction: column;
+        flex-direction: column;
+    }
+
+    .right-bottom-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-bottom-container {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 }
 
-.right-bottom-container {
-   flex-direction: column;
-   width: 100%;
+@media (max-width:605px) {
+    .button-style-1 {
+        margin-top: 10px;
+    }
+
+    .section-1 {
+        .left-section-1 {
+            .intro-hero {
+                width: 275px;
+            }
+        }
+    }
 }
 
-.left-bottom-container {
-    width: 100%;
-    margin-bottom: 50px;
+@media (max-width:450px) {
+    .home-main-container {
+        .right-home-container {
+            .hero-banner-container {
+                .hero {
+                    width: 225px;
+                    border-bottom-left-radius: 85px;
+                    border-top-right-radius: 85px;
+                }
+            }
+        }
+    }
 }
+
+@media (max-width:425px) {
+    .button-style-2 {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .home-main-container {
+        .left-home-container {
+            .home-text-box {
+                p {
+                    font-size: 15px;
+                }
+
+                h1 {
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+}
+
+
+// progress bar media queries
+
+@media(max-width: 753px) {
+    .wrapper {
+        max-width: 700px;
+    }
+
+    .wrapper .card {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .section-1 {
+        .right-section-1 {
+            .text-box-about {
+                p {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .section-1 {
+        padding: 0px !important;
+    }
+}
+
+@media(max-width: 640px) {
+    .wrapper {
+        max-width: 500px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .wrapper .card {
+        width: 100%;
+    }
 }
 
 @media (max-width:375px) {

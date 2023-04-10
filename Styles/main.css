@@ -4,7 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap");
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #dbd5d2;
@@ -12,27 +13,44 @@
 
 .home-main-container {
   width: 100%;
-  height: auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .left-home-container {
   width: 50%;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .right-home-container {
   width: 50%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: end;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   z-index: 1000;
 }
 
@@ -45,19 +63,19 @@
 .R-container-bg-2 {
   width: 35%;
   height: 100%;
-  background-color: rgb(24, 23, 23);
+  background-color: #181717;
 }
 
 .R-container-bg-3 {
   width: 40%;
   height: 100%;
-  background-color: rgb(37, 36, 36);
+  background-color: #252424;
 }
 
 .home-text-box {
   width: 100%;
   background-color: #dbd5d2;
-  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   padding: 75px;
   height: auto;
   font-size: 50px;
@@ -76,11 +94,16 @@ p {
   width: 100%;
   height: 650px;
   background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 50px;
-  font-family: "Be Vietnam Pro", sans-serif;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .project {
@@ -105,15 +128,18 @@ p {
 .home-main-container .right-home-container .block {
   width: 200px;
   height: 200px;
-  background-color: rgb(65, 57, 57);
+  background-color: #413939;
   position: absolute;
   margin-right: 500px;
   margin-bottom: 700px;
 }
+
 .home-main-container .right-home-container .hero-banner-container .hero {
   width: 450px;
   height: auto;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  -webkit-transition: 55ms;
   transition: 55ms;
   background-image: radial-gradient(#ffa17f, #00223e);
   transition: 55ms;
@@ -121,6 +147,7 @@ p {
   border-bottom-left-radius: 150px;
   border-top-right-radius: 150px;
 }
+
 .home-main-container .hero-banner-container {
   height: auto;
   background-color: rgba(255, 0, 0, 0);
@@ -129,14 +156,119 @@ p {
 .copyright {
   width: 100%;
   height: 250px;
+  position: relative;
+  z-index: 1000;
   background-color: #201c1c;
   color: #dbd5d2;
   text-align: center;
-  align-items: center;
-  font-family: "Be Vietnam Pro", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  margin-top: -210px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-clip-path: polygon(100% 44%, 0% 100%, 100% 100%);
           clip-path: polygon(100% 44%, 0% 100%, 100% 100%);
-}/*# sourceMappingURL=main.css.map */
+}
+
+.wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.wrapper .card {
+  width: calc(33% - 20px);
+  height: 300px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.wrapper .card .circle {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.card .circle .box,
+.card .circle .box span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.card .circle .box {
+  height: 100%;
+  width: 100%;
+  background-color: #bdb8b5;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0.8);
+          transform: translate(-50%, -50%) scale(0.8);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card .circle:hover .box {
+  -webkit-transform: translate(-50%, -50%) scale(0.91);
+          transform: translate(-50%, -50%) scale(0.91);
+}
+
+.card .circle .box span,
+.wrapper .card .text {
+  background: -webkit-linear-gradient(left, #201c1c, #201c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.circle .box span {
+  font-size: 38px;
+  font-family: sans-serif;
+  font-weight: 600;
+  -webkit-transform: translate(-45%, -45%);
+          transform: translate(-45%, -45%);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.card .circle:hover .box span {
+  -webkit-transform: translate(-45%, -45%) scale(1.09);
+          transform: translate(-45%, -45%) scale(1.09);
+}
+
+.card .text {
+  font-size: 20px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

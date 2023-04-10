@@ -3,6 +3,13 @@
     width: 775px;
   }
 }
+
+@media (min-width: 2000px) {
+  .home-main-container .right-home-container .hero-banner-container .hero {
+    width: 625px;
+  }
+}
+
 @media (max-width: 1550px) {
   .button-style-1,
   .button-style-2 {
@@ -12,11 +19,13 @@
     padding-top: 7px;
   }
 }
+
 @media (max-width: 1630px) {
   .home-main-container .left-home-container .home-text-box {
     font-size: 35px;
   }
 }
+
 @media (max-width: 1251px) {
   .home-main-container .left-home-container .home-text-box {
     font-size: 25px;
@@ -24,26 +33,63 @@
   .home-main-container .right-home-container .hero-banner-container .hero {
     width: 315px;
   }
+  .section-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-1 .left-section-1,
+  .section-1 .right-section-1 {
+    width: 100%;
+  }
+  .right-section-1 {
+    padding-top: 50px;
+  }
 }
+
 @media (max-width: 1000px) {
   .home-main-container .left-home-container .home-text-box {
     font-size: 20px;
   }
 }
+
 @media (max-width: 942px) {
   .header-main {
     height: auto;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .left-home-container,
+  .right-home-container {
+    width: 100%;
+  }
+  .home-main-container .left-home-container .home-text-box {
+    text-align: center;
+  }
+  .home-main-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
   }
   .left-header,
   .right-header {
     width: 100%;
   }
   .left-header {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .right-header {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-right: 0;
   }
   .right-header {
@@ -60,6 +106,7 @@
     width: 140px;
   }
 }
+
 @media (max-width: 767px) {
   .header-main .left-header li {
     font-size: 20px;
@@ -69,17 +116,26 @@
     font-size: 18px;
   }
   .home-main-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .left-home-container,
   .right-home-container {
     width: 100%;
   }
   .bottom-home-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .right-bottom-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
   }
   .left-bottom-container {
@@ -87,12 +143,74 @@
     margin-bottom: 50px;
   }
 }
+
+@media (max-width: 605px) {
+  .button-style-1 {
+    margin-top: 10px;
+  }
+  .section-1 .left-section-1 .intro-hero {
+    width: 275px;
+  }
+}
+
+@media (max-width: 450px) {
+  .home-main-container .right-home-container .hero-banner-container .hero {
+    width: 225px;
+    border-bottom-left-radius: 85px;
+    border-top-right-radius: 85px;
+  }
+}
+
+@media (max-width: 425px) {
+  .button-style-2 {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .home-main-container .left-home-container .home-text-box p {
+    font-size: 15px;
+  }
+  .home-main-container .left-home-container .home-text-box h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 753px) {
+  .wrapper {
+    max-width: 700px;
+  }
+  .wrapper .card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+  .section-1 .right-section-1 .text-box-about p {
+    font-size: 25px;
+  }
+  .section-1 {
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    max-width: 500px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .wrapper .card {
+    width: 100%;
+  }
+}
+
 @media (max-width: 375px) {
   .right-header {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .button-style-2 {
     margin-right: 0px;
     margin-bottom: 13px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}
+/*# sourceMappingURL=responsive.css.map */

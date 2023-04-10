@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/button.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
     <title>Website Portfolio</title>
 </head>
 <header>
-      <div class="header-main">
+    <div class="header-main">
         <div class="left-header">
             <img src="/Images/logoipsum.png" alt="">
-            <a href="home.html"><li>Home</li></a>
-            <a href="about.html"><li>About</li></a>
+            <a href="home.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
             <li>My work</li>
         </div>
         <div class="right-header">
@@ -46,13 +52,34 @@
         </div>
     </div>
 </body>
-<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+<div class="wrapper">
+    <div class="card">
+        <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+        </div>
+        <div class="text">Wordpress</div>
+    </div>
+    <div class="card js">
+        <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+        </div>
+        <div class="text">PHP</div>
+    </div>
+    <div class="card react">
+        <div class="circle">
+            <div class="bar"></div>
+            <div class="box"><span></span></div>
+        </div>
+        <div class="text">React JS</div>
+    </div>
+</div>
+<script src="/Javascript/progressBar.js"></script>
+
+</html>
 <footer>
-  <!-- <svg class="divider-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-  <path fill="#201c1c" fill-opacity="1" d="M0,288L1440,192L1440,320L0,320Z"></path>
-</svg> -->
-<div class="copyright">© Leon de Haas 2023</div>
+    <div class="copyright">© Leon de Haas 2023</div>
 </footer>
-<!-- <script src="Javascript/typeWriter.js"></script> -->
 
 </html>
