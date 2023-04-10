@@ -165,6 +165,7 @@
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transition: 85ms;
   transform: scale(1.02);
+  cursor: pointer;
 }
 
 @keyframes card-1 {
@@ -303,3 +304,17 @@
 }
 
 //test 
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #201c1c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #535151;
+  border: 3px solid #201c1c;
+  border-radius: 10px;
+}

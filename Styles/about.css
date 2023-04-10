@@ -111,6 +111,7 @@
   transition: 85ms;
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+  cursor: pointer;
 }
 
 @-webkit-keyframes card-1 {
@@ -261,5 +262,19 @@
 .right-section-4 img {
   height: auto;
   width: 200px;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #201c1c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #535151;
+  border: 3px solid #201c1c;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=about.css.map */
