@@ -38,6 +38,7 @@
   color: #000;
   -webkit-transition: 55ms;
   transition: 55ms;
+  cursor: pointer;
 }
 
 .button-style-2:hover {
@@ -45,5 +46,19 @@
   color: #dbd5d2;
   -webkit-transition: 55ms;
   transition: 55ms;
+  cursor: pointer;
+}
+
+.header-button {
+  width: 200px;
+  font-size: 25px;
+  font-family: 'Saira Condensed', sans-serif;
+  border: 0;
+}
+
+.header-button:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline 1px solid #000;
+          text-decoration: underline 1px solid #000;
 }
 /*# sourceMappingURL=button.css.map */

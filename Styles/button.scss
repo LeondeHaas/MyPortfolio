@@ -40,10 +40,25 @@
     background-color: #dbd5d2;
     color: #000;
     transition: 55ms;
+    cursor: pointer;
 }
 
 .button-style-2:hover {
     background-color: #000;
     color: #dbd5d2;
     transition: 55ms;
+    cursor: pointer;
+}
+
+.header-button {
+    // height: 100%;
+    width: 200px;
+    font-size: 25px;
+    font-family: 'Saira Condensed', sans-serif;
+    border: 0;
+}
+
+.header-button:hover {
+    cursor: pointer;
+    text-decoration: underline 1px solid #000;
 }

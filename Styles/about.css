@@ -20,6 +20,10 @@
   width: 400px;
   height: auto;
   background-attachment: fixed;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  -webkit-animation: intro-hero 0.5s linear;
+          animation: intro-hero 0.5s linear;
   -webkit-filter: grayscale(100);
   -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
           box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -94,6 +98,10 @@
   padding: 25px;
   margin: 20px;
   font-family: 'Be Vietnam Pro', sans-serif;
+  -webkit-animation: card-1 1s linear;
+          animation: card-1 1s linear;
+  overflow: hidden;
+  position: relative;
 }
 
 .card-1:hover {
@@ -103,6 +111,50 @@
   transition: 85ms;
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+}
+
+@-webkit-keyframes card-1 {
+  0% {
+    -webkit-transform: translateX(35%);
+            transform: translateX(35%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes card-1 {
+  0% {
+    -webkit-transform: translateX(35%);
+            transform: translateX(35%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes intro-hero {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes intro-hero {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
 }
 
 .icon {
@@ -156,131 +208,58 @@
 
 .section-4 {
   width: 100%;
-  height: 700px;
+  height: auto;
   background-color: #201c1c;
+  margin-top: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px;
 }
 
-.editorial {
-  display: block;
+.txt {
   width: 100%;
-  height: 60px;
-  max-height: 60px;
-  margin: 0;
-  z-index: 5;
-  bottom: 0;
-  left: 0px;
-  float: left;
+  text-align: center;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.editorial-1 {
-  display: block;
-  width: 100%;
-  height: 60px;
-  max-height: 60px;
-  margin: 0;
-  z-index: 5;
-  bottom: 0;
-  left: 0px;
-  float: left;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+.left-section-4 {
+  width: 50%;
+  height: auto;
+  background: 0;
+  padding: 50px;
 }
 
-.parallax1 > use {
-  -webkit-animation: move-forever1 7s linear infinite;
-          animation: move-forever1 7s linear infinite;
+.left-section-4 {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #dbd5d2;
 }
 
-.parallax1 > use:nth-child(1) {
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
+.left-section-4 p {
+  background: 0;
 }
 
-@-webkit-keyframes move-forever1 {
-  0% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
+.left-section-4 h2 {
+  background: 0;
+  font-size: 50px;
 }
 
-@keyframes move-forever1 {
-  0% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
+.right-section-4 {
+  width: 50%;
+  height: auto;
+  background-color: #dbd5d2;
+  border-radius: 25px;
+  padding: 50px;
+  background-image: url(/Images/20221125_124452.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
 }
 
-@-webkit-keyframes move-forever2 {
-  0% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
-}
-
-@keyframes move-forever2 {
-  0% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
-}
-
-@-webkit-keyframes move-forever3 {
-  0% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
-}
-
-@keyframes move-forever3 {
-  0% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
-}
-
-@-webkit-keyframes move-forever4 {
-  0% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
-}
-
-@keyframes move-forever4 {
-  0% {
-    -webkit-transform: translate(-90px, 0%);
-            transform: translate(-90px, 0%);
-  }
-  100% {
-    -webkit-transform: translate(85px, 0%);
-            transform: translate(85px, 0%);
-  }
+.right-section-4 img {
+  height: auto;
+  width: 200px;
 }
 /*# sourceMappingURL=about.css.map */

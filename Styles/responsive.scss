@@ -42,6 +42,19 @@
             }
         }
     }
+
+    .section-4 {
+        flex-direction: column;
+    }
+
+    .right-section-4 {
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+    .left-section-4 {
+        width: 100% !important;
+    }
 }
 
 @media (max-width:1251px) {
@@ -91,7 +104,9 @@
 }
 
 
-@media (max-width:942px) {
+@media (max-width:1200px) {
+
+    //was 942px
     .header-main {
         height: auto;
         flex-direction: column;

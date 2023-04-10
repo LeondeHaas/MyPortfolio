@@ -127,7 +127,6 @@ p {
     border: 1px solid #000;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
-
 }
 
 
@@ -164,8 +163,9 @@ p {
                 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; // rotate: -10deg;
                 transition: 55ms;
                 // background-image: radial-gradient(#6441A5, #2a0845);
-                background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100, 43, 115, 1) 0%, rgba(4, 0, 4, 1) 90%);
+                //background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100, 43, 115, 1) 0%, rgba(4, 0, 4, 1) 90%);
                 // background-image: radial-gradient(#360033, #0b8793);
+                background-color: #201c1c;
                 transition: 55ms;
                 background-attachment: fixed;
                 border-bottom-left-radius: 150px;
@@ -185,7 +185,8 @@ p {
     height: 250px;
     position: relative;
     z-index: 1000;
-    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100, 43, 115, 1) 0%, rgba(4, 0, 4, 1) 90%);
+    background-color: #201c1c;
+    // background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(100, 43, 115, 1) 0%, rgba(4, 0, 4, 1) 90%);
     color: #dbd5d2;
     text-align: center;
     align-items: center;

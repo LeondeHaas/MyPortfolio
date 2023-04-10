@@ -14,8 +14,16 @@
     list-style: none;
     font-size: 40px;
     display: flex;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
     align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.left-header {
+    img {
+        padding-left: 55px;
+    }
 }
 
 
