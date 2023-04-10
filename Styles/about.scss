@@ -148,7 +148,8 @@
 .card-1 {
   width: 450px;
   min-height: 450px;
-  background-color: #dbd5d2;
+  //background-image: linear-gradient(99deg, rgba(115, 18, 81, 1) 10.6%, rgba(28, 28, 28, 1) 118%);
+  //background-image: linear-gradient(109.6deg, rgba(102, 51, 153, 1) 11.2%, rgba(2, 0, 4, 1) 91.1%);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   transition: 85ms;
   border-radius: 15px;
@@ -167,7 +168,7 @@
 .icon {
   width: 100%;
   height: auto;
-  // background-color: red;
+  background: 0;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -175,10 +176,25 @@
   margin-bottom: 25px;
 }
 
+.section-3 {
+  .card-1 {
+    p {
+      background: 0;
+      // color: #dbd5d2;
+    }
+
+    h1 {
+      background: 0;
+      // color: #dbd5d2;
+    }
+  }
+}
+
 .icon {
   img {
     width: auto;
     height: 75px;
+    background: 0;
   }
 
   // img:hover {
@@ -289,3 +305,5 @@
     transform: translate(85px, 0%);
   }
 }
+
+//test

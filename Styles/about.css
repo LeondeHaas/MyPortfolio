@@ -85,7 +85,6 @@
 .card-1 {
   width: 450px;
   min-height: 450px;
-  background-color: #dbd5d2;
   -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
           box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   -webkit-transition: 85ms;
@@ -109,6 +108,7 @@
 .icon {
   width: 100%;
   height: auto;
+  background: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -122,9 +122,18 @@
   margin-bottom: 25px;
 }
 
+.section-3 .card-1 p {
+  background: 0;
+}
+
+.section-3 .card-1 h1 {
+  background: 0;
+}
+
 .icon img {
   width: auto;
   height: 75px;
+  background: 0;
 }
 
 .S3-title {
