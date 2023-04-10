@@ -36,11 +36,19 @@
     color: #000;
 }
 
+.button-style-3 {
+    background-color: #dbd5d2;
+    border: 2px solid #000;
+    color: #000;
+}
+
 .button-style-1:hover {
     background-color: #dbd5d2;
     color: #000;
     transition: 55ms;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .button-style-2:hover {
@@ -48,6 +56,17 @@
     color: #dbd5d2;
     transition: 55ms;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.button-style-3:hover {
+    background-color: #000;
+    color: #dbd5d2;
+    transition: 55ms;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 .header-button {

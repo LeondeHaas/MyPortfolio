@@ -1,9 +1,15 @@
-.divider {
-  margin-top: -10px;
+body::-webkit-scrollbar {
+  width: 15px;
 }
 
-.divider-about {
-  margin-top: -90px;
+body::-webkit-scrollbar-track {
+  background: #201c1c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #535151;
+  border: 3px solid #201c1c;
+  border-radius: 10px;
 }
 
 .section-1 {
@@ -16,15 +22,27 @@
   // background-size: cover;
 }
 
-.intro-hero {
+.intro-hero-1 {
   background-image: radial-gradient(#ffa17f, #00223e, );
   width: 400px;
   height: auto;
   background-attachment: fixed;
   transform: rotate(-5deg);
-  animation: intro-hero 0.5s linear;
+  animation: intro-hero-1 0.5s linear;
   -webkit-filter: grayscale(100);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.intro-hero-2 {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  transform: rotate(5deg);
+  filter: grayscale(100);
+  margin-top: 545px;
+  margin-right: 454px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  animation: intro-hero-2 0.5s linear;
 }
 
 .left-section-1 {
@@ -178,9 +196,19 @@
   }
 }
 
-@keyframes intro-hero {
+@keyframes intro-hero-1 {
   0% {
     transform: translateX(-100%)
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes intro-hero-2 {
+  0% {
+    transform: translateX(100%)
   }
 
   100% {
@@ -301,20 +329,4 @@
     height: auto;
     width: 200px;
   }
-}
-
-//test 
-
-body::-webkit-scrollbar {
-  width: 15px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #201c1c;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #535151;
-  border: 3px solid #201c1c;
-  border-radius: 10px;
 }
