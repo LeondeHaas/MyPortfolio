@@ -45,10 +45,8 @@ body::-webkit-scrollbar-thumb {
           filter: grayscale(100);
   margin-top: 545px;
   margin-right: 454px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  -webkit-animation: intro-hero-2 0.5s linear;
-          animation: intro-hero-2 0.5s linear;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 .left-section-1 {

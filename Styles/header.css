@@ -25,6 +25,7 @@
 
 .left-header img {
   padding-left: 55px;
+  display: none;
 }
 
 .header-main li {

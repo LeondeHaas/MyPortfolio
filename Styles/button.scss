@@ -81,3 +81,107 @@
     cursor: pointer;
     text-decoration: underline 1px solid #000;
 }
+
+// fancy button effects #1
+
+.button-style-1 {
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.button-style-1:hover {
+    transition-duration: 0.1s;
+    background-color: #dbd5d2;
+}
+
+.button-style-1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+}
+
+.button-style-1:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+.button-style-1:active {
+    top: 1px;
+}
+
+// fancy button effects #2
+
+.button-style-2 {
+    position: relative;
+    background-color: #dbd5d2;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    padding: 0.8em 1.8em;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.button-style-2:hover {
+    transition-duration: 0.1s;
+    background-color: #000;
+}
+
+.button-style-2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+}
+
+.button-style-2:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+.button-style-2:active {
+    top: 1px;
+}
