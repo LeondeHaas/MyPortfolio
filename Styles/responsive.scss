@@ -23,6 +23,19 @@
     }
 }
 
+@media (max-width:1800px) {
+    .section-1 {
+        .left-section-1 {
+            .intro-hero-2 {
+                margin-top: 265px;
+                width: 350px;
+            }
+        }
+    }
+}
+
+
+
 @media (max-width:1550px) {
 
     .button-style-1,
@@ -62,6 +75,14 @@
         .left-home-container {
             .home-text-box {
                 font-size: 25px;
+            }
+        }
+    }
+
+    .section-1 {
+        .left-section-1 {
+            .intro-hero-2 {
+                width: 250px;
             }
         }
     }
@@ -214,6 +235,14 @@
         .left-section-1 {
             .intro-hero-1 {
                 width: 275px;
+            }
+        }
+    }
+
+    .section-1 {
+        .left-section-1 {
+            .intro-hero-2 {
+                display: none;
             }
         }
     }
