@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles/about.css">
   <title>Website Portfolio</title>
 </head>
-<header>
+<header onclick="audio.play();">
   <div class="header-fade"></div>
   <div class="header-main">
     <div class="left-header">
@@ -23,7 +23,7 @@
     </div>
     <div class="right-header">
       <button class="button-style-2">Download CV</button>
-      <button class="button-style-1">Get In Contact</button>
+      <a href="contact.html"><button class="button-style-1">Get In Contact</button></a>
     </div>
   </div>
 </header>
@@ -157,7 +157,10 @@
         <h2>MySQL</h2>
       </div>
     </div>
-    <button onclick="topFunction()" id="myBtn">Launch me up!</button>
+  </div>
+  <div class="spacer layer1"></div>
+  <button onclick="topFunction()" id="myBtn">Launch me up!</button>
 </body>
 <script src="Javascript/main.js"></script>
 <script src="Javascript/backToTop.js"></script>
+<script src="/Javascript/click.js"></script>
