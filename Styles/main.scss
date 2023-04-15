@@ -5,6 +5,10 @@
     background-color: #dbd5d2;
 }
 
+html {
+    scroll-behavior: smooth
+}
+
 // font imports
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
@@ -333,3 +337,29 @@ div.clickEffect {
 }
 
 //test
+
+#myBtn {
+    display: none;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #312d2d;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    transition: 85ms;
+    right: 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#myBtn:hover {
+    background-color: #3f3b3b;
+    transition: 85ms;
+    cursor: grab;
+}

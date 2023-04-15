@@ -134,6 +134,9 @@
   .header-main .left-header li {
     font-size: 20px;
   }
+  .section-4 {
+    padding: 50px !important;
+  }
   .button-style-1,
   .button-style-2 {
     font-size: 18px;
@@ -168,9 +171,6 @@
 }
 
 @media (max-width: 605px) {
-  .button-style-1 {
-    margin-top: 10px;
-  }
   .section-1 .left-section-1 .intro-hero-1 {
     width: 275px;
   }
