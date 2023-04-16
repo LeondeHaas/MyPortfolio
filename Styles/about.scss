@@ -17,13 +17,9 @@ body::-webkit-scrollbar-thumb {
   height: auto;
   display: flex;
   padding: 100px;
-  // background-image: url(/Images/trianglify-lowres.png);
-  // background-repeat: no-repeat;
-  // background-size: cover;
 }
 
 .intro-hero-1 {
-  background-image: radial-gradient(#ffa17f, #00223e, );
   width: 400px;
   height: auto;
   background-attachment: fixed;
@@ -78,76 +74,7 @@ body::-webkit-scrollbar-thumb {
 
 //section-2 
 
-// .section-2 {
-//   width: 100%;
-//   height: auto;
-//   background-color: #201c1c;
-//   display: flex;
-//   flex-wrap: wrap;
-//   // box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-//   background-image: url(/Images/);
-//   padding-bottom: 45px;
-//   flex-direction: column;
-// }
-
-// .top-section-1 {
-//   width: 100%;
-//   height: 100px;
-//   background-color: red;
-// }
-
-// .S2-title {
-//   background-color: #201c1c;
-//   padding-top: 45px;
-//   padding-bottom: 45px;
-//   padding-left: 50px;
-//   font-size: 50px;
-//   font-family: 'Be Vietnam Pro', sans-serif;
-//   color: #dbd5d2;
-//   border-bottom: 3px solid #343131;
-//   width: 100%;
-//   margin-top: -10px;
-//   //   box-shadow: rgba(32, 25, 30, 0.4) 0px -5px, rgba(58, 50, 55, 0.3) 0px -10px, rgba(92, 86, 90, 0.2) 0px -15px, rgba(115, 108, 113, 0.1) 0px -20px, rgba(197, 192, 195, 0.05) 0px -25px;
-
-// }
-
-// .left-section-2,
-// .right-section-2 {
-//   width: 100%;
-//   height: auto;
-//   background-color: #201c1c;
-//   justify-content: center;
-//   align-items: center;
-//   display: flex;
-//   // outline: 5px blue solid;
-// }
-
-// .text-box-school {
-//   padding: 50px;
-//   height: auto;
-//   background-color: #201c1c;
-// }
-
-// .text-box-school {
-
-//   h2,
-//   p {
-//     background-color: #201c1c;
-//     color: #dbd5d2;
-//     font-family: 'Be Vietnam Pro', sans-serif;
-//   }
-// }
-
-// .het-rijks {
-//   width: 50%;
-//   height: auto;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-//   z-index: 1000;
-//   // transform: scale(1.5);
-// }
-
+//nothing here
 
 //section-3 
 
@@ -164,8 +91,6 @@ body::-webkit-scrollbar-thumb {
 .card-1 {
   width: 450px;
   min-height: 450px;
-  //background-image: linear-gradient(99deg, rgba(115, 18, 81, 1) 10.6%, rgba(28, 28, 28, 1) 118%);
-  //background-image: linear-gradient(109.6deg, rgba(102, 51, 153, 1) 11.2%, rgba(2, 0, 4, 1) 91.1%);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   transition: 85ms;
   border-radius: 15px;
@@ -184,7 +109,20 @@ body::-webkit-scrollbar-thumb {
   transition: 85ms;
   transform: scale(1.02);
   cursor: pointer;
-  // background-image: url(/Images/blurry-gradient-haikei-card.svg);
+}
+
+.section-4 {
+  .left-section-4 {
+    .button-style-2 {
+      margin-right: 0;
+    }
+  }
+}
+
+.section-6 {
+  .button-style-2 {
+    margin-right: 0;
+  }
 }
 
 @keyframes card-1 {
@@ -264,8 +202,8 @@ body::-webkit-scrollbar-thumb {
   color: #201c1c;
   width: 100%;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  // padding-left: 100px;
+  // padding-right: 100px;
   //   box-shadow: rgba(32, 25, 30, 0.4) 0px -5px, rgba(58, 50, 55, 0.3) 0px -10px, rgba(92, 86, 90, 0.2) 0px -15px, rgba(115, 108, 113, 0.1) 0px -20px, rgba(197, 192, 195, 0.05) 0px -25px;
 
 }
@@ -336,18 +274,6 @@ body::-webkit-scrollbar-thumb {
 
 //section 5
 
-// .S5-title {
-//   background-color: #dbd5d2;
-//   padding-bottom: 45px;
-//   font-size: 50px;
-//   font-family: 'Be Vietnam Pro', sans-serif;
-//   color: #201c1c;
-//   width: 100%;
-//   text-align: center;
-//   padding-left: 100px;
-//   padding-right: 100px;
-// }
-
 .section-5 {
   width: 100%;
   height: auto;
@@ -403,13 +329,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-// .skill-card {
-//   img:hover {
-//     transform: scale(2);
-//     transition: 85ms;
-//   }
-// }
-
 .skill-card:hover {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transition: 85ms;
@@ -429,6 +348,26 @@ body::-webkit-scrollbar-thumb {
   100% {
     transform: translateX(0%);
   }
+}
+
+//section 6
+
+.section-6 {
+  width: 100%;
+  height: auto;
+  background-color: #dbd5d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+}
+
+.text-box-skills {
+  width: 50%;
+  height: auto;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-align: center;
 }
 
 

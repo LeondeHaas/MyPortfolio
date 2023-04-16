@@ -22,7 +22,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .intro-hero-1 {
-  background-image: radial-gradient(#ffa17f, #00223e);
   width: 400px;
   height: auto;
   background-attachment: fixed;
@@ -135,6 +134,14 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.section-4 .left-section-4 .button-style-2 {
+  margin-right: 0;
+}
+
+.section-6 .button-style-2 {
+  margin-right: 0;
+}
+
 @-webkit-keyframes card-1 {
   0% {
     -webkit-transform: translateX(35%);
@@ -241,8 +248,6 @@ body::-webkit-scrollbar-thumb {
   color: #201c1c;
   width: 100%;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .S3-underscore {
@@ -411,6 +416,33 @@ body::-webkit-scrollbar-thumb {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
+}
+
+.section-6 {
+  width: 100%;
+  height: auto;
+  background-color: #dbd5d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text-box-skills {
+  width: 50%;
+  height: auto;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-align: center;
 }
 
 .spacer {

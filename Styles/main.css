@@ -142,7 +142,6 @@ p {
 .home-main-container {
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rebeccapurple;
   background-image: url(/Images/stacked-waves-haikei-background-2.svg);
 }
 
@@ -299,34 +298,6 @@ p {
   font-weight: 600;
 }
 
-.contact-wrapper {
-  height: 100vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url(/Images/LL2023_026.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  -webkit-filter: grayscale(100);
-          filter: grayscale(100);
-}
-
-.contact-bar {
-  width: 100%;
-  height: 200px;
-  background-color: #201c1cad;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-}
-
 div.clickEffect {
   position: fixed;
   -webkit-box-sizing: border-box;
@@ -400,5 +371,31 @@ div.clickEffect {
   transition: 85ms;
   cursor: -webkit-grab;
   cursor: grab;
+}
+
+.contact-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: #dbd5d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.contact-bar {
+  width: 100%;
+  height: 200px;
+  background-color: #201c1cad;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 /*# sourceMappingURL=main.css.map */

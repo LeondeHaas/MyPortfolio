@@ -161,7 +161,6 @@ p {
 .home-main-container {
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rebeccapurple;
     background-image: url(/Images/stacked-waves-haikei-background-2.svg);
 }
 
@@ -307,28 +306,6 @@ p {
     font-weight: 600;
 }
 
-// contact css
-
-.contact-wrapper {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/Images/LL2023_026.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    filter: grayscale(100);
-}
-
-.contact-bar {
-    width: 100%;
-    height: 200px;
-    background-color: #201c1cad;
-    backdrop-filter: blur(10px);
-}
-
 // click effect mouse
 
 div.clickEffect {
@@ -385,4 +362,18 @@ div.clickEffect {
     background-color: #3f3b3b;
     transition: 85ms;
     cursor: grab;
+}
+
+// contact css
+
+.contact-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #dbd5d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
