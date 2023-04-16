@@ -374,9 +374,9 @@ div.clickEffect {
 }
 
 .contact-wrapper {
-  height: 100vh;
+  height: auto;
   width: 100%;
-  background-color: #dbd5d2;
+  background-image: url(/Images/stacked-waves-haikei-bg-cont.svg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -388,14 +388,113 @@ div.clickEffect {
           align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  padding: 150px;
+  text-align: c;
 }
 
-.contact-bar {
+.contact {
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  width: 60%;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/Images/blob-scene-haikei-cnt.svg);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.contact img {
+  width: 35px;
+  height: auto;
+  background: 0;
+  margin-bottom: 15px;
+}
+
+.contact-devider-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  height: 200px;
-  background-color: #201c1cad;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: 0;
+}
+
+.contact-card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+  width: 450px;
+  min-height: 200px;
+  background: 0;
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  -webkit-transition: 85ms;
+  transition: 85ms;
+}
+
+.contact-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 85ms;
+  transition: 85ms;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.contact-wrapper h1 {
+  background: 0;
+}
+
+.contact-wrapper p {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.contact-wrapper a {
+  background: 0;
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: 85ms;
+  transition: 85ms;
+}
+
+.contact-wrapper a:hover {
+  -webkit-text-decoration: underline 1px solid #000;
+          text-decoration: underline 1px solid #000;
+  -webkit-transition: 85ms;
+  transition: 85ms;
 }
 /*# sourceMappingURL=main.css.map */
