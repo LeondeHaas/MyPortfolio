@@ -1,0 +1,108 @@
+.work-wrapper {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-image: url(/Images/stacked-waves-haikei-999.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-projects {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.example-show {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin-top: 50px;
+    border-radius: 25px;
+    // filter: grayscale(100);
+    transition: 85ms;
+    //   background-image: url(/Images//blurry-gradient-haikei-bg-card.svg);
+
+}
+
+.example-show {
+    img {
+        filter: grayscale(100);
+        transition: 85ms;
+    }
+    
+    img:hover {
+        filter: grayscale(0);
+        transition: 85ms;
+    }
+    // filter: grayscale(0);
+    // transition: 85ms;
+}
+
+.code-bar {
+    width: 100%;
+    height: 75px;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    background: 0;
+}
+
+.code-bar {
+    img {
+        width: 35px!important;
+        height: auto;
+        background: 0;
+    }
+
+    img:hover {
+        transform: scale(1.10);
+    }
+}
+
+.example-show {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        padding-bottom: 20px;
+        background: 0;
+    }
+
+    h3 {
+        padding-top: 20px;
+        background: 0;
+    }
+
+    a {
+        text-decoration: none;
+        background: 0;
+    }
+
+    .atachment-icon {
+        width: 35px;
+        height: auto;
+    }
+
+    li {
+        background: 0;
+    }
+
+
+}

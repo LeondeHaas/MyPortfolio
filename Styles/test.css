@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   color: #000;
   background-color: #202731;
   overflow-x: hidden;
@@ -8,16 +8,9 @@ body {
 
 section {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   min-height: 400px;
   padding: 100px 20vw;
 }
@@ -30,32 +23,30 @@ section {
 }
 
 .curve::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   border-radius: 100% 50%;
   width: 55%;
   height: 100%;
   background-color: #202731;
-  -webkit-transform: translate(85%, 60%);
-          transform: translate(85%, 60%);
+  transform: translate(85%, 60%);
 }
 
 .curve::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   border-radius: 100% 50%;
   width: 55%;
   height: 100%;
   background-color: #3c31dd;
-  -webkit-transform: translate(-4%, 40%);
-          transform: translate(-4%, 40%);
+  transform: translate(-4%, 40%);
   z-index: -1;
 }
 
 .bubble::after {
-  content: '';
+  content: "";
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   position: absolute;
@@ -87,7 +78,7 @@ section {
 }
 
 .spacer {
-  aspect-ratio: 900 / 300;
+  aspect-ratio: 900/300;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -112,5 +103,4 @@ section {
 
 .dark {
   background-color: #0f0f10;
-}
-/*# sourceMappingURL=test.css.map */
+}/*# sourceMappingURL=test.css.map */

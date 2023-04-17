@@ -2,15 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <!-- stylesheets -->
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/button.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="/Styles/work.css">
+  <title>Website Portfolio</title>
 </head>
+<header>
+  <div class="header-fade"></div>
+  <div class="header-main">
+    <div class="left-header">
+      <img src="/Images/logoipsum.png" alt="">
+      <!--logo placeholder-->
+      <a href="home.html"><button class="header-button">Home</button></a>
+      <a href="about.html"><button class="header-button">About</button></a>
+      <a href="mywork.html"><button class="header-button">My work</button></a>
+    </div>
+    <div class="right-header">
+      <button class="button-style-2">Download CV</button>
+      <a href="contact.html"><button class="button-style-1">Get In Contact</button></a>
+    </div>
+  </div>
+</header>
 
 <body>
-
+    <div class="intro-projects">
+        <h1>Welcome to my projects!</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, temporibus dolores labore suscipit deleniti libero tenetur, consequatur repudiandae, iure repellendus minima facere excepturi. Impedit sed minima nam corporis eligendi velit cum consectetur exercitationem, sit dolore sunt eum saepe reiciendis tenetur quo totam adipisci vel cumque, doloremque deleniti a. Porro, iste.</p>
+    </div>
+    <div class="work-wrapper">
+        <div class="example-show">
+            <h2>30/11/2022</h2>
+            <img src="/Images/Screenshot_20230208_095306.png" alt="">
+            <h3>Projectweek 2023 - Escape room</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, a similique officiis, est adipisci animi omnis earum placeat dolorum nulla nisi eveniet vitae consequatur numquam.</p>
+            <li><a href="https://github.com/LeondeHaas/Projectweek-2023">Github repository</a></li>
+            <div class="code-bar">
+                <img title="HTML" src="/Images/Images-2/004-html.png" alt="">
+                <img title="CSS" src="/Images/Images-2/005-css-3.png" alt="">
+                <img title="SASS" src="/Images/Images-2/008-sass.png" alt="">
+            </div>
+        </div>
+         <div class="example-show">
+            <h2>27/12/2022</h2>
+            <img src="/Images/Screenshot_20221111_020621.png" alt="">
+            <h3>Restaurant Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, a similique officiis, est adipisci animi omnis earum placeat dolorum nulla nisi eveniet vitae consequatur numquam.</p>            <li><a href="https://github.com/LeondeHaas/Restaurant-project">Github repository</a></li>
+              <div class="code-bar">
+                <img title="HTML" src="/Images/Images-2/004-html.png" alt="">
+                <img title="CSS" src="/Images/Images-2/005-css-3.png" alt="">
+                <img title="SASS" src="/Images/Images-2/008-sass.png" alt="">
+            </div>
+        </div>
+        <div class="example-show">
+            <h2>15/6/2022</h2>
+            <img src="/Images/mywork.png" alt="">
+            <h3>Wordpress website - Internship project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, a similique officiis, est adipisci animi omnis earum placeat dolorum nulla nisi eveniet vitae consequatur numquam.</p>
+            <!-- <img class="atachment-icon" src="/Images/Images-2/001-attach-interface-symbol-of-a-clip.png" alt="">     -->
+            <li><a href="https://annaluciafotografie.nl/">Website</a></li>
+              <div class="code-bar">
+                <img title="HTML" src="/Images/Images-2/001-wordpress-logo.png" alt="">
+            </div>
+        </div>
+         <div class="example-show">
+            <h2>15/6/2022</h2>
+            <img src="/Images/Screenshot 2023-04-17 160424.png" alt="">
+            <h3>Wordpress website - Internship project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, a similique officiis, est adipisci animi omnis earum placeat dolorum nulla nisi eveniet vitae consequatur numquam.</p>
+            <!-- <img class="atachment-icon" src="/Images/Images-2/001-attach-interface-symbol-of-a-clip.png" alt="">     -->
+            <li><a href="https://mathijsblomautoservice.nl/">Website</a></li>
+              <div class="code-bar">
+                <img title="HTML" src="/Images/Images-2/001-wordpress-logo.png" alt="">
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn">Launch me up!</button>
 </body>
 
 </html>
 <script src="Javascript/main.js"></script>
+<script src="Javascript/backToTop.js"></script>
+<script src="Javascript/click.js"></script>

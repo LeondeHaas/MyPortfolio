@@ -23,16 +23,16 @@
     }
 }
 
-@media (max-width:1800px) {
-    .section-1 {
-        .left-section-1 {
-            .intro-hero-2 {
-                margin-top: 265px;
-                width: 350px;
-            }
-        }
-    }
-}
+// @media (max-width:1800px) {
+//     .section-1 {
+//         .left-section-1 {
+//             .intro-hero-2 {
+//                 margin-top: 265px;
+//                 width: 350px;
+//             }
+//         }
+//     }
+// }
 
 
 
@@ -256,6 +256,10 @@
     // .button-style-1 {
     //     margin-top: 10px;
     // }
+
+    .work-wrapper {
+        padding: 50px!important;
+    }
 
     .section-1 {
         .left-section-1 {

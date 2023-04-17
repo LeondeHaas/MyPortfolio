@@ -20,7 +20,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .intro-hero-1 {
-  width: 400px;
+  width: 300px;
   height: auto;
   background-attachment: fixed;
   transform: rotate(-5deg);
@@ -30,13 +30,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .intro-hero-2 {
-  width: 400px;
+  width: 250px;
   height: auto;
   position: absolute;
   transform: rotate(5deg);
   filter: grayscale(100);
-  margin-top: 545px;
-  margin-right: 454px;
+  margin-top: 355px;
+  margin-right: 380px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
@@ -69,7 +69,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .S1-title {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 //section-2 
@@ -301,8 +301,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .skill-card {
-  width: 350px;
-  min-height: 450px;
+  width: 235px;
+  min-height: 330px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   justify-content: center;
   display: flex;

@@ -15,64 +15,44 @@ body::-webkit-scrollbar-thumb {
 .section-1 {
   width: 100%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 100px;
 }
 
 .intro-hero-1 {
-  width: 400px;
+  width: 300px;
   height: auto;
   background-attachment: fixed;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-  -webkit-animation: intro-hero-1 0.5s linear;
-          animation: intro-hero-1 0.5s linear;
+  transform: rotate(-5deg);
+  animation: intro-hero-1 0.5s linear;
   -webkit-filter: grayscale(100);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .intro-hero-2 {
-  width: 400px;
+  width: 250px;
   height: auto;
   position: absolute;
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-  -webkit-filter: grayscale(100);
-          filter: grayscale(100);
-  margin-top: 545px;
-  margin-right: 454px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  transform: rotate(5deg);
+  filter: grayscale(100);
+  margin-top: 355px;
+  margin-right: 380px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 .left-section-1 {
   width: 40%;
   height: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
 .right-section-1 {
   width: 60%;
   height: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
   display: flex;
   padding-right: 60px;
   padding-left: 60px;
@@ -81,56 +61,43 @@ body::-webkit-scrollbar-thumb {
 .text-box-about {
   width: 100%;
   height: auto;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .S1-title {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .section-3 {
   width: 100%;
   height: auto;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: space-evenly;
+  align-items: center;
   display: flex;
   padding: 100px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .card-1 {
   width: 450px;
   min-height: 450px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  -webkit-transition: 85ms;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   transition: 85ms;
   border-radius: 15px;
   text-align: center;
   padding: 25px;
   margin: 20px;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  -webkit-animation: card-1 1s linear;
-          animation: card-1 1s linear;
+  font-family: "Be Vietnam Pro", sans-serif;
+  animation: card-1 1s linear;
   overflow: hidden;
   position: relative;
   background-image: url(/Images//blurry-gradient-haikei-bg-card.svg);
 }
 
 .card-1:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  -webkit-transition: 85ms;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transition: 85ms;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
   cursor: pointer;
 }
 
@@ -142,85 +109,37 @@ body::-webkit-scrollbar-thumb {
   margin-right: 0;
 }
 
-@-webkit-keyframes card-1 {
-  0% {
-    -webkit-transform: translateX(35%);
-            transform: translateX(35%);
-  }
-  100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
-}
-
 @keyframes card-1 {
   0% {
-    -webkit-transform: translateX(35%);
-            transform: translateX(35%);
+    transform: translateX(35%);
   }
   100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
   }
 }
-
-@-webkit-keyframes intro-hero-1 {
-  0% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-  }
-  100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
-}
-
 @keyframes intro-hero-1 {
   0% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
+    transform: translateX(-100%);
   }
   100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
   }
 }
-
-@-webkit-keyframes intro-hero-2 {
-  0% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-  }
-  100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
-}
-
 @keyframes intro-hero-2 {
   0% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
   }
   100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
   }
 }
-
 .icon {
   width: 100%;
   height: auto;
   background: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-top: 50px;
   margin-bottom: 25px;
 }
@@ -228,7 +147,6 @@ body::-webkit-scrollbar-thumb {
 .section-3 .card-1 p {
   background: 0;
 }
-
 .section-3 .card-1 h1 {
   background: 0;
 }
@@ -244,7 +162,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 45px;
   padding-top: 45px;
   font-size: 50px;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   color: #201c1c;
   width: 100%;
   text-align: center;
@@ -260,8 +178,6 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: auto;
   background-color: #201c1c;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 100px;
 }
@@ -269,7 +185,7 @@ body::-webkit-scrollbar-thumb {
 .txt {
   width: 100%;
   text-align: center;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .left-section-4 {
@@ -280,14 +196,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .left-section-4 {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   color: #dbd5d2;
 }
-
 .left-section-4 p {
   background: 0;
 }
-
 .left-section-4 h2 {
   background: 0;
   font-size: 50px;
@@ -297,8 +211,7 @@ body::-webkit-scrollbar-thumb {
   width: 50%;
   height: auto;
   background-color: #dbd5d2;
-  -webkit-filter: grayscale(100);
-          filter: grayscale(100);
+  filter: grayscale(100);
   border: 4px solid #000;
   border-radius: 15px;
 }
@@ -323,41 +236,23 @@ body::-webkit-scrollbar-thumb {
 .section-5-spacer {
   width: 100%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 25px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background: 0;
 }
 
 .skill-card {
-  width: 350px;
-  min-height: 450px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  width: 235px;
+  min-height: 330px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  justify-content: center;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  -webkit-transition: 85ms;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Be Vietnam Pro", sans-serif;
   transition: 85ms;
   border-radius: 15px;
   border: 0;
@@ -368,7 +263,6 @@ body::-webkit-scrollbar-thumb {
 .skill-card img {
   width: auto;
   height: 100px;
-  -webkit-transition: 85ms;
   transition: 85ms;
   background: 0;
 }
@@ -378,75 +272,43 @@ body::-webkit-scrollbar-thumb {
 }
 
 .skill-card:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  -webkit-transition: 85ms;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transition: 85ms;
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
-  -webkit-animation: skill-card 0.20s ease-in-out;
-          animation: skill-card 0.20s ease-in-out;
-}
-
-@-webkit-keyframes skill-card {
-  0% {
-    -webkit-transform: translateY(-10%);
-            transform: translateY(-10%);
-  }
-  50% {
-    -webkit-transform: translateY(-15%);
-            transform: translateY(-15%);
-  }
-  100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
+  transform: scale(0.98);
+  animation: skill-card 0.2s ease-in-out;
 }
 
 @keyframes skill-card {
   0% {
-    -webkit-transform: translateY(-10%);
-            transform: translateY(-10%);
+    transform: translateY(-10%);
   }
   50% {
-    -webkit-transform: translateY(-15%);
-            transform: translateY(-15%);
+    transform: translateY(-15%);
   }
   100% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
   }
 }
-
 .section-6 {
   width: 100%;
   height: auto;
   background-color: #dbd5d2;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 50px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .text-box-skills {
   width: 50%;
   height: auto;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   text-align: center;
 }
 
 .spacer {
-  aspect-ratio: 900 / 300;
+  aspect-ratio: 900/300;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -459,5 +321,4 @@ body::-webkit-scrollbar-thumb {
 
 .layer2 {
   background-image: url(/Images/stacked-waves-haikei-version3.svg);
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */

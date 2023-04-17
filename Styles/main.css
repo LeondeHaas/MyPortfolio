@@ -4,8 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: #dbd5d2;
@@ -17,26 +16,17 @@ html {
 
 .home-main-container {
   width: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 100%;
   display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .left-home-container {
   width: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
   display: flex;
   background: 0;
 }
@@ -44,18 +34,10 @@ html {
 .right-home-container {
   width: 50%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: end;
+  justify-content: center;
   background: 0;
 }
 
@@ -68,19 +50,19 @@ html {
 .R-container-bg-2 {
   width: 35%;
   height: 100%;
-  background-color: #181717;
+  background-color: rgb(24, 23, 23);
 }
 
 .R-container-bg-3 {
   width: 40%;
   height: 100%;
-  background-color: #252424;
+  background-color: rgb(37, 36, 36);
 }
 
 .home-text-box {
   width: 100%;
   background-color: #dbd5d2;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   padding: 75px;
   height: auto;
   font-size: 50px;
@@ -92,13 +74,12 @@ html {
 .home-text-box h1 {
   background: 0;
 }
-
 .home-text-box a {
   background: 0;
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   background: 0;
@@ -108,16 +89,11 @@ p {
   width: 100%;
   height: 650px;
   background-color: #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 50px;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  font-family: "Be Vietnam Pro", sans-serif;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .project {
@@ -148,32 +124,25 @@ p {
 .home-main-container .right-home-container .block {
   width: 200px;
   height: 200px;
-  background-color: #413939;
+  background-color: rgb(65, 57, 57);
   position: absolute;
   margin-right: 500px;
   margin-bottom: 700px;
 }
-
 .home-main-container .right-home-container .hero-banner-container .hero {
   width: 450px;
   height: auto;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  -webkit-transition: 55ms;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transition: 55ms;
   background-image: url(/Images/blob-scene-haikei.svg);
-  -webkit-transition: 85ms;
   transition: 85ms;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .home-main-container .right-home-container .hero-banner-container .hero:hover {
   background-image: url(/Images/blob-scene-haikei-hover.svg);
-  -webkit-transition: 85ms;
   transition: 85ms;
 }
-
 .home-main-container .hero-banner-container {
   height: auto;
   background-color: rgba(255, 0, 0, 0);
@@ -187,34 +156,21 @@ p {
   background-color: #201c1c;
   color: #dbd5d2;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
+  font-family: "Be Vietnam Pro", sans-serif;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-clip-path: polygon(100% 44%, 0% 100%, 100% 100%);
           clip-path: polygon(100% 44%, 0% 100%, 100% 100%);
 }
 
 .wrapper {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Be Vietnam Pro", sans-serif;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -223,21 +179,11 @@ p {
   width: calc(33% - 20px);
   height: 300px;
   border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .wrapper .card .circle {
@@ -260,15 +206,12 @@ p {
   width: 100%;
   background-color: #bdb8b5;
   border-radius: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(0.8);
-          transform: translate(-50%, -50%) scale(0.8);
-  -webkit-transition: all 0.2s;
+  transform: translate(-50%, -50%) scale(0.8);
   transition: all 0.2s;
 }
 
 .card .circle:hover .box {
-  -webkit-transform: translate(-50%, -50%) scale(0.91);
-          transform: translate(-50%, -50%) scale(0.91);
+  transform: translate(-50%, -50%) scale(0.91);
 }
 
 .card .circle .box span,
@@ -282,15 +225,12 @@ p {
   font-size: 38px;
   font-family: sans-serif;
   font-weight: 600;
-  -webkit-transform: translate(-45%, -45%);
-          transform: translate(-45%, -45%);
-  -webkit-transition: all 0.1s;
+  transform: translate(-45%, -45%);
   transition: all 0.1s;
 }
 
 .card .circle:hover .box span {
-  -webkit-transform: translate(-45%, -45%) scale(1.09);
-          transform: translate(-45%, -45%) scale(1.09);
+  transform: translate(-45%, -45%) scale(1.09);
 }
 
 .card .text {
@@ -300,31 +240,12 @@ p {
 
 div.clickEffect {
   position: fixed;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-style: solid;
   border-color: #000;
   border-radius: 50%;
-  -webkit-animation: clickEffect 0.4s ease-out;
-          animation: clickEffect 0.4s ease-out;
+  animation: clickEffect 0.4s ease-out;
   z-index: 99999;
-}
-
-@-webkit-keyframes clickEffect {
-  0% {
-    opacity: 1;
-    width: 0.5em;
-    height: 0.5em;
-    margin: -0.25em;
-    border-width: 0.5em;
-  }
-  100% {
-    opacity: 0.2;
-    width: 15em;
-    height: 15em;
-    margin: -7.5em;
-    border-width: 0.03em;
-  }
 }
 
 @keyframes clickEffect {
@@ -343,7 +264,6 @@ div.clickEffect {
     border-width: 0.03em;
   }
 }
-
 #myBtn {
   display: none;
   position: fixed;
@@ -357,19 +277,17 @@ div.clickEffect {
   color: white;
   cursor: pointer;
   padding: 15px;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  -webkit-transition: 85ms;
+  font-family: "Be Vietnam Pro", sans-serif;
   transition: 85ms;
   right: 0px;
   font-weight: bold;
   letter-spacing: 2px;
+  scroll-behavior: smooth !important;
 }
 
 #myBtn:hover {
   background-color: #3f3b3b;
-  -webkit-transition: 85ms;
   transition: 85ms;
-  cursor: -webkit-grab;
   cursor: grab;
 }
 
@@ -377,15 +295,9 @@ div.clickEffect {
   height: auto;
   width: 100%;
   background-image: url(/Images/stacked-waves-haikei-bg-cont.svg);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px;
@@ -394,25 +306,18 @@ div.clickEffect {
 
 .contact {
   border-radius: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 40px;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  width: 60%;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 100%;
   text-align: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(/Images/blob-scene-haikei-cnt.svg);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 .contact img {
@@ -423,78 +328,52 @@ div.clickEffect {
 }
 
 .contact-devider-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: auto;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   background: 0;
 }
 
 .contact-card {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 25px;
   width: 450px;
   min-height: 200px;
   background: 0;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 25px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-  -webkit-transition: 85ms;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
   transition: 85ms;
 }
 
 .contact-card:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: 85ms;
+  transform: scale(1.1);
   transition: 85ms;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  cursor: -webkit-grab;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   cursor: grab;
 }
 
 .contact-wrapper h1 {
   background: 0;
 }
-
 .contact-wrapper p {
   padding-top: 0;
   padding-bottom: 0;
 }
-
 .contact-wrapper a {
   background: 0;
   text-decoration: none;
   color: #000;
-  -webkit-transition: 85ms;
   transition: 85ms;
 }
-
 .contact-wrapper a:hover {
   -webkit-text-decoration: underline 1px solid #000;
           text-decoration: underline 1px solid #000;
-  -webkit-transition: 85ms;
   transition: 85ms;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
