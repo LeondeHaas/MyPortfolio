@@ -21,6 +21,71 @@
             }
         }
     }
+
+    .section-1 {
+        .left-section-1 {
+            .intro-hero-1 {
+                width: 475px;
+            }
+
+            .intro-hero-2 {
+                width: 375px;
+                margin-top: 520px;
+                margin-right: 533px;
+            }
+        }
+    }
+
+    .section-1 {
+        .right-section-1 {
+            .text-box-about {
+                p {
+                    font-size: 27px;
+                }
+
+                .S1-title {
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+
+    .section-5 {
+        .skill-card {
+            width: 365px;
+            height: 365px;
+        }
+    }
+
+    .header-main {
+        .left-header {
+            .header-button {
+                font-size: 33px;
+            }
+        }
+    }
+
+    .home-main-container {
+        .left-home-container {
+            .home-text-box {
+                p {
+                    font-size: 30px;
+                }
+
+                h1 {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+
+    .section-3 {
+        .card-1 {
+            p {
+                font-size: 27px;
+            }
+        }
+    }
 }
 
 // @media (max-width:1800px) {
@@ -111,6 +176,15 @@
 
     .right-section-1 {
         padding-top: 50px;
+    }
+
+    .section-1 {
+        .left-section-1 {
+            .intro-hero-2 {
+                margin-top: 236px;
+                margin-right: -439px;
+            }
+        }
     }
 }
 
@@ -203,6 +277,18 @@
     }
 }
 
+@media (max-width:800px) {
+    .section-1 {
+        .left-section-1 {
+            .intro-hero-2 {
+                margin-top: 271px;
+                margin-right: 331px;
+                width: 200px;
+            }
+        }
+    }
+}
+
 
 @media (max-width:767px) {
     .header-main {
@@ -258,7 +344,7 @@
     // }
 
     .work-wrapper {
-        padding: 50px!important;
+        padding: 50px !important;
     }
 
     .section-1 {
