@@ -301,6 +301,15 @@ body::-webkit-scrollbar-thumb {
           filter: grayscale(100);
   border: 4px solid #000;
   border-radius: 15px;
+  -webkit-transition: 85ms;
+  transition: 85ms;
+}
+
+.right-section-4:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform-origin: 85ms;
+          transform-origin: 85ms;
 }
 
 .right-section-4 img {
