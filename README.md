@@ -1,3 +1,5 @@
+Note: This is an example of my portfolio. The images shown reflect the current state of the website, but changes may have been made as it is still in testing. The site is not yet hosted anywhere.
+
 ![image](https://github.com/user-attachments/assets/f545b195-33c6-4d7a-98ec-a4a1153cee12)
 ![image](https://github.com/user-attachments/assets/7be9838f-4b14-411a-8cfd-8cb2526b20ec)
 
